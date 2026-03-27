@@ -22,7 +22,7 @@ This module deploys a Windows Virtual Machine in Azure with networking, managed 
 
 ```hcl
 module "windows_vm" {
-  source = "git::https://dev.azure.com/tkim-mscloud/ACF/_git/terraform-windows-vm-v2?ref=v1.0.1"
+  source = ""<your module path/link>""
 
   resource_group_name = "rg-myapp-prod"
   location            = "germanywestcentral"
